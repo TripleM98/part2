@@ -38,6 +38,11 @@ string removeLeadingSpaces(string line){
 }
 
 int countChar(string line, char c){
-	int j = 0;
+	//int j = 0;
+	for (int j= 0; j < line.length(), j++){
+		if (line[j]== c){
+			line[j] += "\n \t";
+		}
+	}
 }
 
